@@ -24,10 +24,44 @@
 
 ---
 
+## 📚 단계별 분석 노트북
+
+1. [Data Collection and Preprocessing](1.%20Data%20Collection%20and%20Preprocessing.ipynb)  
+2. [Data Integration](2.%20Data%20Integration.ipynb)  
+3. [Feature Engineering](3.%20Feature%20Engineering.ipynb)  
+4. [EDA and Modeling](4.%20EDA%20and%20Modeling.ipynb)  
+5. [Location Analysis](5.%20Location%20Analysis.ipynb)  
+
+---
+
 ## 🗂️ 데이터 설명  
 - **rename_final_df_with_prediction.csv**  
   - 위치(위도·경도), 전용면적, 층수, 브랜드, 정책·경제 지표  
-  - `predicted_log_price` 컬럼: 예측된 로그 가격  
+  - `predicted_log_price` 컬럼: 예측된 로그 가격
+ 
+---
+
+## 💡 주요 시각화
+
+1. **가격 변동 트렌드**  
+   ![Price Trend](results/figures/price_trend.png)  
+   연도별·월별 실거래가 평균 추이 그래프
+
+2. **거래가격 분포**  
+   ![Price Distribution](results/figures/price_distribution_hist.png)  
+   실거래가 히스토그램
+
+3. **Feature Importance**  
+   ![Feature Importance](results/figures/feature_importance.png)  
+   최종 모델 회귀 계수 바 차트
+
+4. **클러스터링 결과 지도**  
+   ![Cluster Map](results/maps/cluster_map_screenshot.png)  
+   Folium으로 만든 아파트 클러스터 색상 지도 (원본: `cluster_map.html`)
+
+5. **입지 점수 Heatmap**  
+   ![Location Heatmap](results/maps/location_heatmap_screenshot.png)  
+   실거주자/투자자 입지 점수 히트맵 (원본: `location_recommendation.html`)
 
 ---
 
