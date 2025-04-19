@@ -101,8 +101,7 @@
 ## 📞 연락처  
 - 작성자: 강성민  
 - GitHub: [Kangsungmin00](https://github.com/Kangsungmin00)  
-- LinkedIn: linkedin.com/in/강성민  
-
+- LinkedIn: https://www.linkedin.com/in/sungmin-kang-834356340/
 ---
 
 ## 📄 라이선스  
