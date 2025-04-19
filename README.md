@@ -70,7 +70,7 @@
 
 6. **예측 오차 분포**  
    **Error Distribution**  
-   구역별 예측 오차(실거래가 – 예측가격) 분포 히스토그램  
+   구역별 예측 오차 분포 히스토그램  
    ![Error Distribution](results/error_distribution.png)
 
 7. **클러스터링 결과 지도**  
@@ -80,13 +80,14 @@
 
 8. **실거주자 입지 Heatmap**  
    **Residential Location Heatmap**  
-   실거주자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
+   실거주자 페르소나 입지 점수 히트맵  
    ![Residential Location Heatmap](results/residential_heatmap.png)
 
 9. **투자자 입지 Heatmap**  
    **Investor Location Heatmap**  
-   투자자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
+   투자자 페르소나 입지 점수 히트맵  
    ![Investor Location Heatmap](results/investor_heatmap.png)
+
 ---
 
 ## 📦 의존 패키지  
