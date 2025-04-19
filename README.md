@@ -44,24 +44,49 @@
 ## 💡 주요 시각화
 
 1. **가격 변동 트렌드**  
-   ![Price Trend](results/figures/price_trend.png)  
-   연도별·월별 실거래가 평균 추이 그래프
+   **Price Trend**  
+   2024년 월별 아파트 거래 건수 기반 실거래가 추이 그래프  
+   ![가격 변동 트렌드](results/2024년 월별 아파트 거래 건수.png)
 
-2. **거래가격 분포**  
-   ![Price Distribution](results/figures/price_distribution_hist.png)  
-   실거래가 히스토그램
+2. **GTX 이슈 영향 분석**  
+   **GTX Impact Analysis**  
+   GTX 이슈 여부에 따른 실거래가 분포 히스토그램  
+   ![GTX 이슈 영향 분석](results/gtx 영향여부에 따른 실거래가 분포.png)
 
-3. **Feature Importance**  
-   ![Feature Importance](results/figures/feature_importance.png)  
-   최종 모델 회귀 계수 바 차트
+3. **평당가 분포**  
+   **Price per Area Distribution**  
+   구역(zone)별 평당 가격 분포 박스플롯  
+   ![평당가 분포](results/공구 별평당가 분포.png)
 
-4. **클러스터링 결과 지도**  
-   ![Cluster Map](results/maps/cluster_map_screenshot.png)  
-   Folium으로 만든 아파트 클러스터 색상 지도 (원본: `cluster_map.html`)
+4. **거래 vs 예측 비교**  
+   **Actual vs Predicted Price**  
+   구역별 거래 금액과 예측 금액 비교 꺾은선 그래프  
+   ![거래 vs 예측 비교](results/공구별 거래금액 vs 예측금액.png)
 
-5. **입지 점수 Heatmap**  
-   ![Location Heatmap](results/maps/location_heatmap_screenshot.png)  
-   실거주자/투자자 입지 점수 히트맵 (원본: `location_recommendation.html`)
+5. **Feature Importance**  
+   **Feature Importance**  
+   최종 모델의 회귀 계수 중요도 바 차트  
+   ![Feature Importance](results/회귀계수 비교.png)
+
+6. **예측 오차 분포**  
+   **Error Distribution**  
+   구역별 예측 오차(실거래가 – 예측가격) 분포 히스토그램  
+   ![예측 오차 분포](results/공구별 예측 오차 분포.png)
+
+7. **클러스터링 결과 지도**  
+   **Cluster Map**  
+   Folium 기반 아파트 클러스터 색상 위경도 지도 (원본: `cluster_map.html`)  
+   ![클러스터링 결과 지도](results/공구1 클러스터링 위경도.png)
+
+8. **실거주자 입지 Heatmap**  
+   **Residential Location Heatmap**  
+   실거주자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
+   ![실거주자 입지 Heatmap](results/실거주자_Heatmap.png)
+
+9. **투자자 입지 Heatmap**  
+   **Investor Location Heatmap**  
+   투자자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
+   ![투자자 입지 Heatmap](results/투자자_Heatmap.png)
 
 ---
 
