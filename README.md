@@ -75,7 +75,7 @@
 
 7. **클러스터링 결과 지도**  
    **Cluster Map**  
-   Folium 기반 아파트 클러스터 색상 위경도 지도 (원본: `cluster_map.html`)  
+   Folium 기반 아파트 클러스터 색상 위경도 지도  
    ![Cluster Map](results/cluster_map.png)
 
 8. **실거주자 입지 Heatmap**  
