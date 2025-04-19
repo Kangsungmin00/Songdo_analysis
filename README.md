@@ -41,7 +41,7 @@
  
 ---
 
-## 💡 주요 시각화
+**## 💡 주요 시각화**
 
 1. **가격 변동 트렌드**  
    **Price Trend**  
@@ -87,7 +87,6 @@
    **Investor Location Heatmap**  
    투자자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
    ![투자자 입지 Heatmap](results/투자자_Heatmap.png)
-
 ---
 
 ## 📦 의존 패키지  
