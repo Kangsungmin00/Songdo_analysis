@@ -41,52 +41,52 @@
  
 ---
 
-**## 💡 주요 시각화**
+## 💡 주요 시각화
 
 1. **가격 변동 트렌드**  
    **Price Trend**  
    2024년 월별 아파트 거래 건수 기반 실거래가 추이 그래프  
-   ![가격 변동 트렌드](results/2024년 월별 아파트 거래 건수.png)
+   ![Price Trend](results/price_trend.png)
 
 2. **GTX 이슈 영향 분석**  
    **GTX Impact Analysis**  
    GTX 이슈 여부에 따른 실거래가 분포 히스토그램  
-   ![GTX 이슈 영향 분석](results/gtx 영향여부에 따른 실거래가 분포.png)
+   ![GTX Impact](results/gtx_impact.png)
 
 3. **평당가 분포**  
    **Price per Area Distribution**  
    구역(zone)별 평당 가격 분포 박스플롯  
-   ![평당가 분포](results/공구 별평당가 분포.png)
+   ![Price per Area](results/price_per_area.png)
 
 4. **거래 vs 예측 비교**  
    **Actual vs Predicted Price**  
    구역별 거래 금액과 예측 금액 비교 꺾은선 그래프  
-   ![거래 vs 예측 비교](results/공구별 거래금액 vs 예측금액.png)
+   ![Actual vs Predicted Price](results/actual_vs_predicted.png)
 
 5. **Feature Importance**  
    **Feature Importance**  
    최종 모델의 회귀 계수 중요도 바 차트  
-   ![Feature Importance](results/회귀계수 비교.png)
+   ![Feature Importance](results/feature_importance.png)
 
 6. **예측 오차 분포**  
    **Error Distribution**  
    구역별 예측 오차(실거래가 – 예측가격) 분포 히스토그램  
-   ![예측 오차 분포](results/공구별 예측 오차 분포.png)
+   ![Error Distribution](results/error_distribution.png)
 
 7. **클러스터링 결과 지도**  
    **Cluster Map**  
    Folium 기반 아파트 클러스터 색상 위경도 지도 (원본: `cluster_map.html`)  
-   ![클러스터링 결과 지도](results/공구1 클러스터링 위경도.png)
+   ![Cluster Map](results/cluster_map.png)
 
 8. **실거주자 입지 Heatmap**  
    **Residential Location Heatmap**  
    실거주자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
-   ![실거주자 입지 Heatmap](results/실거주자_Heatmap.png)
+   ![Residential Location Heatmap](results/residential_heatmap.png)
 
 9. **투자자 입지 Heatmap**  
    **Investor Location Heatmap**  
    투자자 페르소나 입지 점수 히트맵 (원본: `location_recommendation.html`)  
-   ![투자자 입지 Heatmap](results/투자자_Heatmap.png)
+   ![Investor Location Heatmap](results/investor_heatmap.png)
 ---
 
 ## 📦 의존 패키지  
